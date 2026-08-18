@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #0b2239;
+  --cream: #f8f5ef;
+  --aqua: #a9f4e2;
+  --coral: #ff725e;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--cream); color: var(--ink); }
+::selection { background: var(--aqua); color: var(--ink); }
+
+@keyframes orbit { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+@keyframes drift { 0%, 100% { transform: translate3d(0, 0, 0) rotate(-8deg); } 50% { transform: translate3d(0, -14px, 0) rotate(4deg); } }
+.orbit { animation: orbit 24s linear infinite; transform-origin: center; }
+.drift { animation: drift 8s ease-in-out infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .orbit, .drift { animation: none; }
+}
