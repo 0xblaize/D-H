@@ -11,8 +11,8 @@ export const metadata: Metadata = {
     type: "website",
   },
   icons: {
-    icon: "/logo-monochrome.svg",
-    apple: "/logo-monochrome.svg",
+    icon: "/image.png",
+    apple: "/image.png",
   },
 };
 

@@ -5,7 +5,7 @@ export function Arrow() {
 export function Logo() {
   return (
     <span className="flex items-center" aria-label="D&H Physiotherapy LTD">
-      <img src="/logo-monochrome.svg" alt="D&H Physiotherapy" className="h-12 w-28 object-contain sm:h-14 sm:w-32" />
+      <img src="/image.png" alt="D&H Physiotherapy" className="h-12 w-28 object-contain sm:h-14 sm:w-32" />
     </span>
   );
 }
