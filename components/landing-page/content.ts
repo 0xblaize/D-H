@@ -2,11 +2,11 @@ export const whatsappLink = "https://wa.me/2349165701473?text=Hello%20D%26H%20Ph
 
 export const services = [
   ["01", "Musculoskeletal rehab", "Stronger joints, steadier movement, and a plan built around your body.", "/images/landing/black-physiotherapist-black-patient.jpg"],
-  ["02", "Stroke & neuro-rehab", "Goal-focused support to rebuild coordination, confidence, and independence.", "/images/landing/black-physiotherapist-black-patient.jpg"],
-  ["03", "Elderly & frail care", "Gentle therapy for balance, mobility, strength, and everyday freedom.", "/images/landing/black-physiotherapist-black-patient.jpg"],
-  ["04", "Post-surgical rehab", "Structured recovery that helps you return to movement with confidence.", "/images/landing/black-physiotherapist-black-patient.jpg"],
-  ["05", "Pain management", "Evidence-led techniques to reduce pain and make daily life feel possible again.", "/images/landing/black-physiotherapist-black-patient.jpg"],
-  ["06", "Home-based services", "Professional physiotherapy brought to your doorstep across our service areas.", "/images/landing/black-physiotherapist-black-patient.jpg"],
+  ["02", "Stroke & neuro-rehab", "Goal-focused support to rebuild coordination, confidence, and independence.", "/images/landing/black-care-consultation.jpg"],
+  ["03", "Elderly & frail care", "Gentle therapy for balance, mobility, strength, and everyday freedom.", "/images/landing/black-care-clinical-team.jpg"],
+  ["04", "Post-surgical rehab", "Structured recovery that helps you return to movement with confidence.", "/images/landing/black-care-doctors.jpg"],
+  ["05", "Pain management", "Evidence-led techniques to reduce pain and make daily life feel possible again.", "/images/landing/black-care-doctor.jpg"],
+  ["06", "Home-based services", "Professional physiotherapy brought to your doorstep across our service areas.", "/images/landing/black-care-nurse-team.jpg"],
 ] as const;
 
 export const reviews = [
@@ -21,6 +21,6 @@ export const googleReviewsLink = "https://www.google.com/maps/place/D%26H+Physio
 
 export const gallery = [
   ["Hands-on care", "/images/landing/black-physiotherapist-black-patient.jpg"],
-  ["Small steps, big wins", "/images/landing/black-physiotherapist-black-patient.jpg"],
-  ["Confidence in motion", "/images/landing/black-physiotherapist-black-patient.jpg"],
+  ["Small steps, big wins", "/images/landing/black-care-consultation.jpg"],
+  ["Confidence in motion", "/images/landing/black-care-nurse-team.jpg"],
 ] as const;
