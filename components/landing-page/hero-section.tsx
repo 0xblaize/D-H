@@ -1,4 +1,4 @@
-import { whatsappLink } from "./content";
+import { services, whatsappLink } from "./content";
 import { Arrow } from "./ui";
 
 export function HeroSection() {
@@ -13,9 +13,9 @@ export function HeroSection() {
           <div className="mt-14 grid max-w-md grid-cols-2 gap-5 border-t border-[#0b2239]/15 pt-6 text-sm text-[#0b2239]/55"><span><strong className="text-[#0b2239]">Clinic + home</strong><br />care options</span><span><strong className="text-[#0b2239]">Ibadan · Oyo</strong><br />· Osun coverage</span></div>
         </div>
         <div className="relative min-h-[390px] overflow-hidden bg-[#0b2239] sm:min-h-[500px] lg:min-h-0">
-          <img src="https://images.pexels.com/photos/20860579/pexels-photo-20860579/free-photo-of-physiotherapist-working-with-patient.jpeg?auto=compress&w=1500" alt="Physiotherapist guiding a patient through a leg movement exercise" className="absolute inset-0 h-full w-full object-cover object-center transition duration-1000 hover:scale-105" />
+          <img src={`${services[0][3]}&w=1500`} alt="Black physiotherapist guiding a patient through a leg movement exercise" className="absolute inset-0 h-full w-full object-cover object-center transition duration-1000 hover:scale-105" />
           <div className="absolute inset-0 bg-gradient-to-t from-[#0b2239]/65 via-transparent to-[#0b2239]/10" />
-          <div className="absolute bottom-6 left-4 right-4 flex items-end justify-between gap-3 sm:bottom-10 sm:left-10 sm:right-10"><div className="rounded-2xl border border-white/25 bg-[#0b2239]/55 px-5 py-4 text-white backdrop-blur-md"><p className="text-xs font-black uppercase tracking-[.18em] text-[#a9f4e2]">The D&H approach</p><p className="mt-2 font-bold">We put care in the details.</p></div><div className="hidden h-36 w-28 overflow-hidden rounded-2xl border-4 border-[#f8f5ef] shadow-2xl sm:block"><img src="https://images.pexels.com/photos/20860595/pexels-photo-20860595.jpeg?auto=compress&w=400" alt="Physiotherapist hands supporting a patient's knee" className="h-full w-full object-cover" /></div></div>
+          <div className="absolute bottom-6 left-4 right-4 flex items-end justify-between gap-3 sm:bottom-10 sm:left-10 sm:right-10"><div className="rounded-2xl border border-white/25 bg-[#0b2239]/55 px-5 py-4 text-white backdrop-blur-md"><p className="text-xs font-black uppercase tracking-[.18em] text-[#a9f4e2]">The D&H approach</p><p className="mt-2 font-bold">We put care in the details.</p></div><div className="hidden h-36 w-28 overflow-hidden rounded-2xl border-4 border-[#f8f5ef] shadow-2xl sm:block"><img src={`${services[3][3]}&w=400`} alt="Black physiotherapist supporting a patient's knee" className="h-full w-full object-cover" /></div></div>
           <span className="absolute right-4 top-4 rounded-full bg-[#a9f4e2] px-3 py-2 text-[10px] font-black uppercase tracking-[.14em] text-[#0b2239] sm:right-10 sm:top-10 sm:px-4 sm:text-xs">Hands-on recovery</span>
         </div>
       </div>

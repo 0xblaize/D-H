@@ -1,12 +1,12 @@
 export const whatsappLink = "https://wa.me/2349165701473?text=Hello%20D%26H%20Physiotherapy%2C%20I%27d%20like%20to%20book%20a%20session.";
 
 export const services = [
-  ["01", "Musculoskeletal rehab", "Stronger joints, steadier movement, and a plan built around your body.", "https://images.pexels.com/photos/20860579/pexels-photo-20860579/free-photo-of-physiotherapist-working-with-patient.jpeg?auto=compress&w=900"],
-  ["02", "Stroke & neuro-rehab", "Goal-focused support to rebuild coordination, confidence, and independence.", "https://images.pexels.com/photos/20860594/pexels-photo-20860594.jpeg?auto=compress&w=900"],
-  ["03", "Elderly & frail care", "Gentle therapy for balance, mobility, strength, and everyday freedom.", "https://images.pexels.com/photos/20860590/pexels-photo-20860590.jpeg?auto=compress&w=900"],
-  ["04", "Post-surgical rehab", "Structured recovery that helps you return to movement with confidence.", "https://images.pexels.com/photos/20860595/pexels-photo-20860595.jpeg?auto=compress&w=900"],
-  ["05", "Pain management", "Evidence-led techniques to reduce pain and make daily life feel possible again.", "https://images.pexels.com/photos/20860605/pexels-photo-20860605.jpeg?auto=compress&w=900"],
-  ["06", "Home-based services", "Professional physiotherapy brought to your doorstep across our service areas.", "https://images.pexels.com/photos/20860585/pexels-photo-20860585.jpeg?auto=compress&w=900"],
+  ["01", "Musculoskeletal rehab", "Stronger joints, steadier movement, and a plan built around your body.", "https://images.pexels.com/photos/6129681/pexels-photo-6129681.jpeg?auto=compress&cs=tinysrgb&w=900"],
+  ["02", "Stroke & neuro-rehab", "Goal-focused support to rebuild coordination, confidence, and independence.", "https://images.pexels.com/photos/7659566/pexels-photo-7659566.jpeg?auto=compress&cs=tinysrgb&w=900"],
+  ["03", "Elderly & frail care", "Gentle therapy for balance, mobility, strength, and everyday freedom.", "https://images.pexels.com/photos/7551667/pexels-photo-7551667.jpeg?auto=compress&cs=tinysrgb&w=900"],
+  ["04", "Post-surgical rehab", "Structured recovery that helps you return to movement with confidence.", "https://images.pexels.com/photos/7659570/pexels-photo-7659570.jpeg?auto=compress&cs=tinysrgb&w=900"],
+  ["05", "Pain management", "Evidence-led techniques to reduce pain and make daily life feel possible again.", "https://images.pexels.com/photos/6111616/pexels-photo-6111616.jpeg?auto=compress&cs=tinysrgb&w=900"],
+  ["06", "Home-based services", "Professional physiotherapy brought to your doorstep across our service areas.", "https://images.pexels.com/photos/7659575/pexels-photo-7659575.jpeg?auto=compress&cs=tinysrgb&w=900"],
 ] as const;
 
 export const reviews = [
@@ -20,7 +20,7 @@ export const reviews = [
 export const googleReviewsLink = "https://www.google.com/maps/place/D%26H+Physiotherapy+LTD/@8.134206,3.6162796,8z/data=!4m8!3m7!1s0x1038290873be0f21:0x38b5b82abe9dd252!8m2!3d8.134206!4d3.6162796!9m1!1b1!16s%2Fg%2F11yb1yj8r2!18m1!1e1?entry=ttu";
 
 export const gallery = [
-  ["Hands-on care", "https://images.pexels.com/photos/20860595/pexels-photo-20860595.jpeg?cs=srgb&dl=pexels-funkcines-terapijos-centras-927573878-20860595.jpg&fm=jpg"],
-  ["Small steps, big wins", "https://images.pexels.com/photos/20860594/pexels-photo-20860594.jpeg?cs=srgb&dl=pexels-funkcines-terapijos-centras-927573878-20860594.jpg&fm=jpg"],
-  ["Confidence in motion", "https://images.pexels.com/photos/31234755/pexels-photo-31234755.jpeg?cs=srgb&dl=pexels-andrea-prochilo-3062027-31234755.jpg&fm=jpg"],
+  ["Hands-on care", "https://images.pexels.com/photos/6129681/pexels-photo-6129681.jpeg?auto=compress&cs=tinysrgb&w=1200"],
+  ["Small steps, big wins", "https://images.pexels.com/photos/7659566/pexels-photo-7659566.jpeg?auto=compress&cs=tinysrgb&w=900"],
+  ["Confidence in motion", "https://images.pexels.com/photos/7551667/pexels-photo-7551667.jpeg?auto=compress&cs=tinysrgb&w=900"],
 ] as const;

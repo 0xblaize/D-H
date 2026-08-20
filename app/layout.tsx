@@ -10,6 +10,10 @@ export const metadata: Metadata = {
     description: "Personalised physiotherapy across Ibadan, Oyo, and Osun.",
     type: "website",
   },
+  icons: {
+    icon: "/image.png",
+    apple: "/image.png",
+  },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
