@@ -1,12 +1,12 @@
 export const whatsappLink = "https://wa.me/2349165701473?text=Hello%20D%26H%20Physiotherapy%2C%20I%27d%20like%20to%20book%20a%20session.";
 
 export const services = [
-  ["01", "Musculoskeletal rehab", "Stronger joints, steadier movement, and a plan built around your body.", "https://images.pexels.com/photos/7659564/pexels-photo-7659564.jpeg?auto=compress&w=900"],
-  ["02", "Stroke & neuro-rehab", "Goal-focused support to rebuild coordination, confidence, and independence.", "https://images.pexels.com/photos/6129507/pexels-photo-6129507.jpeg?auto=compress&w=900"],
-  ["03", "Elderly & frail care", "Gentle therapy for balance, mobility, strength, and everyday freedom.", "https://images.pexels.com/photos/7088488/pexels-photo-7088488.jpeg?auto=compress&w=900"],
-  ["04", "Post-surgical rehab", "Structured recovery that helps you return to movement with confidence.", "https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&w=900"],
-  ["05", "Pain management", "Evidence-led techniques to reduce pain and make daily life feel possible again.", "https://images.pexels.com/photos/5207102/pexels-photo-5207102.jpeg?auto=compress&w=900"],
-  ["06", "Home-based services", "Professional physiotherapy brought to your doorstep across our service areas.", "https://images.pexels.com/photos/7089626/pexels-photo-7089626.jpeg?auto=compress&w=900"],
+  ["01", "Musculoskeletal rehab", "Stronger joints, steadier movement, and a plan built around your body.", "https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=900&q=85"],
+  ["02", "Stroke & neuro-rehab", "Goal-focused support to rebuild coordination, confidence, and independence.", "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&w=900&q=85"],
+  ["03", "Elderly & frail care", "Gentle therapy for balance, mobility, strength, and everyday freedom.", "https://images.unsplash.com/photo-1576765608866-5b51046452f4?auto=format&fit=crop&w=900&q=85"],
+  ["04", "Post-surgical rehab", "Structured recovery that helps you return to movement with confidence.", "https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&w=900&q=85"],
+  ["05", "Pain management", "Evidence-led techniques to reduce pain and make daily life feel possible again.", "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?auto=format&fit=crop&w=900&q=85"],
+  ["06", "Home-based services", "Professional physiotherapy brought to your doorstep across our service areas.", "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=900&q=85"],
 ] as const;
 
 export const reviews = [
@@ -20,7 +20,7 @@ export const reviews = [
 export const googleReviewsLink = "https://www.google.com/maps/place/D%26H+Physiotherapy+LTD/@8.134206,3.6162796,8z/data=!4m8!3m7!1s0x1038290873be0f21:0x38b5b82abe9dd252!8m2!3d8.134206!4d3.6162796!9m1!1b1!16s%2Fg%2F11yb1yj8r2!18m1!1e1?entry=ttu";
 
 export const gallery = [
-  ["Hands-on care", "https://images.pexels.com/photos/7659564/pexels-photo-7659564.jpeg?auto=compress&w=1200"],
-  ["Small steps, big wins", "https://images.pexels.com/photos/6129507/pexels-photo-6129507.jpeg?auto=compress&w=900"],
-  ["Confidence in motion", "https://images.pexels.com/photos/7088488/pexels-photo-7088488.jpeg?auto=compress&w=900"],
+  ["Hands-on care", "https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=1200&q=85"],
+  ["Small steps, big wins", "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&w=900&q=85"],
+  ["Confidence in motion", "https://images.unsplash.com/photo-1576765608866-5b51046452f4?auto=format&fit=crop&w=900&q=85"],
 ] as const;
