@@ -1,12 +1,12 @@
 export const whatsappLink = "https://wa.me/2349165701473?text=Hello%20D%26H%20Physiotherapy%2C%20I%27d%20like%20to%20book%20a%20session.";
 
 export const services = [
-  ["01", "Musculoskeletal rehab", "Stronger joints, steadier movement, and a plan built around your body.", "/images/landing/service-musculoskeletal.jpg"],
-  ["02", "Stroke & neuro-rehab", "Goal-focused support to rebuild coordination, confidence, and independence.", "/images/landing/hero-physiotherapy.jpg"],
-  ["03", "Elderly & frail care", "Gentle therapy for balance, mobility, strength, and everyday freedom.", "/images/landing/service-home-based.jpg"],
-  ["04", "Post-surgical rehab", "Structured recovery that helps you return to movement with confidence.", "/images/landing/service-post-surgical.jpg"],
-  ["05", "Pain management", "Evidence-led techniques to reduce pain and make daily life feel possible again.", "/images/landing/service-musculoskeletal.jpg"],
-  ["06", "Home-based services", "Professional physiotherapy brought to your doorstep across our service areas.", "/images/landing/service-home-based.jpg"],
+  ["01", "Musculoskeletal rehab", "Stronger joints, steadier movement, and a plan built around your body.", "/images/landing/black-physiotherapist-black-patient.jpg"],
+  ["02", "Stroke & neuro-rehab", "Goal-focused support to rebuild coordination, confidence, and independence.", "/images/landing/black-physiotherapist-black-patient.jpg"],
+  ["03", "Elderly & frail care", "Gentle therapy for balance, mobility, strength, and everyday freedom.", "/images/landing/black-physiotherapist-black-patient.jpg"],
+  ["04", "Post-surgical rehab", "Structured recovery that helps you return to movement with confidence.", "/images/landing/black-physiotherapist-black-patient.jpg"],
+  ["05", "Pain management", "Evidence-led techniques to reduce pain and make daily life feel possible again.", "/images/landing/black-physiotherapist-black-patient.jpg"],
+  ["06", "Home-based services", "Professional physiotherapy brought to your doorstep across our service areas.", "/images/landing/black-physiotherapist-black-patient.jpg"],
 ] as const;
 
 export const reviews = [
@@ -20,7 +20,7 @@ export const reviews = [
 export const googleReviewsLink = "https://www.google.com/maps/place/D%26H+Physiotherapy+LTD/@8.134206,3.6162796,8z/data=!4m8!3m7!1s0x1038290873be0f21:0x38b5b82abe9dd252!8m2!3d8.134206!4d3.6162796!9m1!1b1!16s%2Fg%2F11yb1yj8r2!18m1!1e1?entry=ttu";
 
 export const gallery = [
-  ["Hands-on care", "/images/landing/hero-physiotherapy.jpg"],
-  ["Small steps, big wins", "/images/landing/hero-physiotherapy.jpg"],
-  ["Confidence in motion", "/images/landing/service-home-based.jpg"],
+  ["Hands-on care", "/images/landing/black-physiotherapist-black-patient.jpg"],
+  ["Small steps, big wins", "/images/landing/black-physiotherapist-black-patient.jpg"],
+  ["Confidence in motion", "/images/landing/black-physiotherapist-black-patient.jpg"],
 ] as const;
