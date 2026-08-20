@@ -9,7 +9,7 @@ import { SiteHeader } from "./site-header";
 
 export function LandingPage() {
   return (
-    <main className="overflow-hidden bg-[#f8f5ef]">
+    <main className="overflow-hidden bg-[#f7f7f5]">
       <header className="bg-white">
         <SiteHeader />
       </header>

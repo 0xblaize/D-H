@@ -1,10 +1,13 @@
 @import "tailwindcss";
 
 :root {
-  --ink: #0b2239;
-  --cream: #f8f5ef;
-  --aqua: #a9f4e2;
-  --coral: #ff725e;
+  --ink: #111827;
+  --cream: #f7f7f5;
+  --aqua: #e5e7eb;
+  --coral: #374151;
+  --surface: #ffffff;
+  --muted: #4b5563;
+  --line: #d1d5db;
 }
 
 * { box-sizing: border-box; }
