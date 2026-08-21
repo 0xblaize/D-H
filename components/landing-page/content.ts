@@ -7,7 +7,7 @@ export const services = [
   ["04", "Post-surgical rehab", "Structured recovery that helps you return to movement with confidence.", "/images/landing/black-care-doctors.jpg"],
   ["05", "Pain management", "Evidence-led techniques to reduce pain and make daily life feel possible again.", "/images/landing/black-care-doctor.jpg"],
   ["06", "Home-based services", "Professional physiotherapy brought to your doorstep across our service areas.", "/images/landing/black-care-nurse-team.jpg"],
-  ["07", "Physiotherapy needs & equipment", "Support with physiotherapy needs, rehabilitation tools, and mobility equipment for clients across Nigeria.", "/images/landing/black-care-clinical-team.jpg"],
+  ["07", "Physiotherapy needs & equipment", "Support with physiotherapy needs, rehabilitation tools, and mobility equipment for clients across Nigeria.", "/images/landing/physiotherapy-equipment.jpg"],
 ] as const;
 
 export const reviews = [

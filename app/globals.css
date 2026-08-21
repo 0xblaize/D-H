@@ -24,9 +24,11 @@ body { margin: 0; background: var(--cream); color: var(--ink); }
 .reveal-delay-3 { animation-delay: .36s; }
 .hero-image { animation: image-enter 1.2s cubic-bezier(.22, 1, .36, 1) both; }
 .card-lift { transition: transform .35s cubic-bezier(.22, 1, .36, 1), box-shadow .35s ease, border-color .35s ease; }
-
+.scroll-reveal { opacity: 0; transform: translate3d(0, 32px, 0); transition: opacity .8s ease, transform .8s cubic-bezier(.22, 1, .36, 1); }
+.scroll-reveal.is-visible { opacity: 1; transform: translate3d(0, 0, 0); }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .orbit, .drift, .reveal, .hero-image { animation: none; }
   .card-lift { transition: none; }
+  .scroll-reveal { opacity: 1; transform: none; transition: none; }
 }
