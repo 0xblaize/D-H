@@ -3,7 +3,7 @@ import "./globals.css";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.dnhphysiotherapy.com.ng";
 const siteName = "D&H Physiotherapy LTD";
-const siteDescription = "D&H Physiotherapy provides personalised physiotherapy, rehabilitation, pain management, and home-based care in Ibadan, Oyo, Osun, and across Nigeria.";
+const siteDescription = "D&H Physiotherapy provides personalised physiotherapy, rehabilitation, pain management, home-based care, and physiotherapy equipment support in Ibadan, Oyo, Osun, and across Nigeria.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -70,6 +70,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
               telephone: "+2349165701473",
               priceRange: "$$",
               areaServed: ["Ibadan", "Oyo State", "Osun State", "Nigeria"],
+              knowsAbout: ["Physiotherapy needs", "Rehabilitation equipment", "Mobility equipment", "Home-based physiotherapy"],
               sameAs: [
                 "https://www.instagram.com/dnhphysiotherapyltd/",
                 "https://www.google.com/maps/place/D%26H+Physiotherapy+LTD/",
@@ -88,6 +89,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                 "Post-surgical rehabilitation",
                 "Pain management",
                 "Home-based physiotherapy",
+                "Physiotherapy needs and equipment support across Nigeria",
               ].map((name) => ({ "@type": "Offer", itemOffered: { "@type": "Service", name } })),
             }),
           }}

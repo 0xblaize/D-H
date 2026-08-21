@@ -4,7 +4,7 @@
 
 D&H Physiotherapy LTD provides personalised physiotherapy and rehabilitation care for recovery, strength, confidence, and everyday independence.
 
-We offer professional, compassionate support tailored to each person's goals, condition, and pace of recovery.
+We offer professional, compassionate support tailored to each person's goals, condition, and pace of recovery. We also support physiotherapy needs and equipment solutions for clients, families, and healthcare providers across Nigeria.
 
 ## Our Services
 
@@ -18,6 +18,8 @@ We offer professional, compassionate support tailored to each person's goals, co
 ## Where We Serve
 
 Clinic and home-based care is available in Ibadan, Oyo State, Osun State, and surrounding areas in Nigeria.
+
+We help meet physiotherapy needs and provide guidance on suitable rehabilitation and mobility equipment across Nigeria.
 
 ## Book an Appointment
 
